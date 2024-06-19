@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Дневник Путешествий</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <img src="img/img_maxresdefault.jpg" alt="Фоновое изображение" id="backgroundImage" />
+  
+  <div id="content">
+    <h1>Мой Дневник Путешествий</h1>
+    <form id="travelForm">
+      <select id="countrySelect"></select>
+      <input type="date" id="travelDate">
+      <textarea id="travelText" placeholder="Введите ваше сообщение"></textarea>
+      <button type="submit">Создать Запись</button>
+    </form>
+    
+    <div id="entriesContainer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
